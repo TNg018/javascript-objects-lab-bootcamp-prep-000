@@ -20,5 +20,5 @@ return newObj
 }
 
 function destructivelyDeleteFromObjectByKey(object, key) {
-  delete recipes.key
+  delete recipes.item
 }
