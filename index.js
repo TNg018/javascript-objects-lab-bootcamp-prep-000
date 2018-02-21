@@ -20,6 +20,6 @@ return newObj
 }
 
 function destructivelyDeleteFromObjectByKey(object, key) {
-  delete recipes.prop1
+  delete recipes.keyitem
 return recipes
 }
