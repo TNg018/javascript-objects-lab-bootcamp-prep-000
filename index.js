@@ -19,4 +19,5 @@ function DeleteFromObjectbyKey(obj, key) {
 var obj = {foo: 'bar'}
 var newObj = Object.assign({}, obj)
 delete newObj.foo
+return obj
 }
