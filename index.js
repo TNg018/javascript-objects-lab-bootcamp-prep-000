@@ -11,13 +11,4 @@ function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
 
   return obj
 }
-const recipe = { eggs: 3 }
 
-destructivelyUpdateObjectWithKeyAndValue(recipe, 'flour', '3 cups')
-
-function deleteFromObjectbyKey(obj, key) {
-var recipes = { foo: 'bar' }
-var newObj = Object.assign({}, obj)
-delete newObj.foo
-return newObj
-}
